@@ -1,10 +1,10 @@
 ---
-
+import Button from './Button.astro'
 ---
 
 <header>
 
-	<div class="flex justify-center mt-12 mb-16">
+	<div class="flex justify-center mb-16">
 		<img src='/assets/logo.svg' alt="Logo">
 	</div>
 	<img src="/assets/tablet/image-hero.png" alt="">
@@ -15,8 +15,8 @@
 		<p class="text-Grey mb-6">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
 
 		<div class="flex flex-col gap-4 items-center">
-			<button class="px-10 py-4 bg-Cyan rounded-[29px] text-white font-black cursor-pointer hover:bg-Cyan/90">Download <span class="text-Soft-White">v1.3</span></button>
-			<button class="px-10 py-4 bg-Button2 rounded-[29px] text-white font-black cursor-pointer hover:bg-Button2/90">What is it?</button>
+			<Button color='Cyan' />
+			<button class="px-10 py-4 bg-Purple rounded-[29px] text-white font-black cursor-pointer hover:bg-Purple/90">What is it?</button>
 		</div>
 	</div>
 	
