@@ -1,9 +1,0 @@
----
-interface Props {
-  color: 'Cyan' | 'Purple'
-}
-const {color} = Astro.props;
-const bgColor = `bg-${color}`
-const bgHoverColor = `hover:bg-${color}/90`
----
-<button class={`px-10 py-4 ${bgColor} rounded-[29px] text-white font-black cursor-pointer ${bgHoverColor}`}>Download <span class="text-white/50">v1.3</span></button>
