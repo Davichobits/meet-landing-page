@@ -2,22 +2,22 @@
 import SectionNumber from './SectionNumber.astro'
 ---
 
-<section class="mb-[172px] max-w-[305px] sm:max-w-[608px]">
+<section class="mb-[172px] max-w-[305px] sm:max-w-[608px] desktop:min-w-[1120px]">
 
   <div class="my-16">
     <SectionNumber number="01" />
   </div>
 
-  <div class="grid grid-cols-2 gap-4 sm:flex  sm:h-[140px]">
-    <img class="rounded-xl sm:size-[140px]" src="/assets/desktop/image-woman-in-videocall.jpg" alt="">
-    <img class="rounded-xl sm:size-[140px]" src="/assets/desktop/image-women-videochatting.jpg" alt="">
-    <img class="rounded-xl sm:size-[140px]" src="/assets/desktop/image-men-in-meeting.jpg" alt="">
-    <img class="rounded-xl sm:size-[140px]" src="/assets/desktop/image-man-texting.jpg" alt="">
+  <div class="grid grid-cols-2 gap-4 sm:grid-cols-4">
+    <img class="rounded-xl" src="/assets/desktop/image-woman-in-videocall.jpg" alt="">
+    <img class="rounded-xl" src="/assets/desktop/image-women-videochatting.jpg" alt="">
+    <img class="rounded-xl" src="/assets/desktop/image-men-in-meeting.jpg" alt="">
+    <img class="rounded-xl" src="/assets/desktop/image-man-texting.jpg" alt="">
   </div>
 
-  <div class="sm:max-w-[504px] m-auto">
-    <p class="text-center uppercase text-Cyan text-xs mt-16 mb-4 font-black tracking-[4px]">Built for modern use</p>
-    <h2 class="font-black text-[32px]/10 text-center mb-8 sm:px-[40px] sm:text-[36px]">Smarter meetings, all in one place</h2>
+  <div class="sm:max-w-[504px] m-auto desktop:max-w-[544px]">
+    <p class="text-center uppercase text-Cyan text-xs mt-16 mb-4 font-black tracking-[4px] sm:text-sm desktop:text-base">Built for modern use</p>
+    <h2 class="font-black text-[32px]/10 text-center mb-8 sm:text-[36px] sm:px-10 desktop:text-[40px]">Smarter meetings, all in one place</h2>
     <p class="text-center text-Grey font-medium">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
   </div>
 </section>
