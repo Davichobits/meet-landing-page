@@ -1,23 +1,42 @@
 ---
-import Button from './Button.astro'
+import Button from './Button.astro';
 ---
 
-<header>
+<header class="desktop:w-full">
+  <div class='flex justify-center mb-16'>
+    <img src='/assets/logo.svg' alt='Logo' />
+  </div>
+  <img class="desktop:hidden" src='/assets/tablet/image-hero.png' alt='image hero' />
 
-	<div class="flex justify-center mb-16">
-		<img src='/assets/logo.svg' alt="Logo">
-	</div>
-	<img src="/assets/tablet/image-hero.png" alt="">
-	
+  <div class="desktop:flex desktop:items-center">
+    <img
+      class='hidden desktop:block'
+      src='/assets/desktop/image-hero-left.png'
+      alt='image hero left'
+    />
+    <div class='w-[305px] m-auto text-center sm:w-[448px]'>
+      <h1 class='mt-12 text-[40px]/10 font-black mb-6 px-3 desktop:text-[64px]/16'>
+        Group Chat for Everyone
+      </h1>
+      <p class='text-Grey mb-6'>
+        Meet makes it easy to connect with others face-to-face virtually and
+        collaborate across any device.
+      </p>
 
-	<div class="w-[305px] m-auto text-center sm:w-[448px]">
-		<h1 class="mt-12 text-[40px]/10 font-black mb-6 px-3">Group Chat for Everyone</h1>
-		<p class="text-Grey mb-6">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
-
-		<div class="flex flex-col gap-4 items-center sm:flex-row sm:justify-center">
-			<Button color='Cyan' />
-			<button class="px-10 py-4 bg-Purple rounded-[29px] text-white font-black cursor-pointer hover:bg-Purple/90">What is it?</button>
-		</div>
-	</div>
-	
+      <div
+        class='flex flex-col gap-4 items-center sm:flex-row sm:justify-center'
+      >
+        <Button color='Cyan' />
+        <button
+          class='px-10 py-4 bg-Purple rounded-[29px] text-white font-black cursor-pointer hover:bg-Purple/90'
+          >What is it?</button
+        >
+      </div>
+    </div>
+    <img
+      class='hidden desktop:block'
+      src='/assets/desktop/image-hero-right.png'
+      alt='image hero right'
+    />
+  </div>
 </header>
