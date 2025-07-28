@@ -1,42 +1,23 @@
-# Astro Starter Kit: Basics
+# Meet landing page
 
-```sh
-npm create astro@latest -- --template basics
-```
+Responsive landing page for a Meeting app, built with Astro, TypeScript, and Tailwind CSS.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+![Demo](/demo.png)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Features
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Users are able to:
 
-## 🚀 Project Structure
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-Inside of your Astro project, you'll see the following folders and files:
+## Technologies used
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+- ASTRO
+- TYPESCRIPT
+- TAILWIND
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
+## Usefull commands
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
@@ -47,6 +28,15 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Author
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+David Ruiz - Frontend Developer
+- [Github](https://github.com/Davichobits)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/Davichobits) 
+- [Linkedin](https://www.linkedin.com/in/davidirc/)
+- [YouTube](https://www.youtube.com/CodingTube)
+- [codingtube.dev](https://codingtube.dev/)
+
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=davichobits/davichobits@github)](https://gitads.dev/v1/ad-track?source=davichobits/davichobits@github)
+
